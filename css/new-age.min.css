@@ -27,13 +27,13 @@
  }
  
  a {
-     color: #fdcc52;
+     color: white;
      transition: all .35s
  }
  
  a:focus,
  a:hover {
-     color: #fcbd20
+     color: white
  }
  
  hr {
@@ -65,7 +65,7 @@
  }
  
  section {
-     padding: 100px 0
+     padding: 10px 0
  }
  
  section h2 {
@@ -236,9 +236,7 @@
  }
  
  section.download {
-    background: linear-gradient(to left, #28A745, #F4D59F);
      position: relative;
-     padding: 150px 0
  }
  
  section.download h2 {
@@ -248,7 +246,7 @@
  
  section.download .badges .badge-link {
      display: block;
-     margin-bottom: 25px
+     padding:10px;
  }
  
  section.download .badges .badge-link:last-child {
@@ -273,7 +271,7 @@
  }
  
  section.features .section-heading {
-     margin-bottom: 100px
+     margin-bottom: 10px
  }
  
  section.features .section-heading h2 {
